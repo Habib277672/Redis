@@ -1,7 +1,7 @@
 import 'dotenv/config'
 import express from 'express'
 import Redis from 'ioredis'
-import mongoose, { mongo } from 'mongoose'
+import mongoose from 'mongoose'
 
 
 const app = express();
